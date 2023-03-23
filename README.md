@@ -57,7 +57,7 @@ A aplicação consiste em uma tela de lista de quadrinhos, um modal de detalhe d
 
 ### Comentário:
 - Foi criado uma aplicação como foi requisitado para uma entrevista de emprego, a cronometragem do tempo realizado foi de 48 Horas em média.
-- Foi tentado colocar o site em live preview na plataforma da vercel porém a API foi bloqueada para consumo. (Para uso local você deverá trocar as chaves de API em hooks/MarvelApi.js)
+- Foi tentado colocar o site em live preview na plataforma da vercel porém a API foi bloqueada para consumo. (Para uso você deverá trocar as chaves de API no .env)
 
 ### Imagens:
 ![Preview1](https://media.discordapp.net/attachments/1083398746366291998/1088353011140677652/image.png?width=857&height=468)

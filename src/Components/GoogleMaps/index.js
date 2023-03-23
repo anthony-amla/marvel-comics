@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 function GoogleMapRender(e) {
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyBI8HlewdZXIqcuVPd1R-x0PaTQYCIgUac"
+        googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API
     })
 
     const [markerPos, setMarkerPos] = useState({

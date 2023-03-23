@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 export function MarvelApi(RequestParam) {
     var URL = "http://gateway.marvel.com/"
     var ts = "1"
-    var publicKey = "7cbe8b76645a6b9fbcf16a43b5bd85a9"
-    var md5Value = "9918927a30eb19a9f248ab8ca51619c4"
+    var publicKey = process.env.REACT_APP_MARVEL_PUBLIC_KEY
+    var md5Value = process.env.REACT_APP_MARVEL_MD5
     const [data, setData] = useState([])
     const [error, setError] = useState(null)
     const [hasLoaded, setHasLoaded] = useState(false)
