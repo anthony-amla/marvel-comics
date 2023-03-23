@@ -14,9 +14,9 @@ export function Footer() {
             </div>
             <div className="Footer-Container-Socials">
                 <label>Sociais</label>
-                <span><img src={GithubIcon} alt="Github Icon"/>Github</span>
-                <span><img src={InstagramIcon} alt="Github Icon"/>Instagram</span>
-                <span><img src={LinkedinIcon} alt="Github Icon"/>Linkedin</span>
+                <a target="_blank" rel="noreferrer" href="https://github.com/anthony-amla/"><img src={GithubIcon} alt="Github Icon"/>Github</a>
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/murilo.araujjo/"><img src={InstagramIcon} alt="Instagram Icon"/>Instagram</a>
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/contatoamla/"><img src={LinkedinIcon} alt="Linkedin Icon"/>Linkedin</a>
             </div>
 
         </div>
